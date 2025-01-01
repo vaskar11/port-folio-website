@@ -1,0 +1,179 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background: #343a40;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #ccc;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #1c1d1e, #283e51);
+    color: #fff;
+    height: 100vh;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#home h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+/* About Me Section */
+#aboutme {
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+
+#aboutme h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4b79a1;
+}
+
+#aboutme .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#aboutme .profile-container img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#aboutme .profile-container .details {
+    max-width: 600px;
+    text-align: left;
+}
+
+#aboutme ul {
+    list-style: none;
+    padding: 0;
+}
+
+#aboutme ul li {
+    background: #4b79a1;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 60px 20px;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4b79a1;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #4b79a1;
+}
+
+.btn-primary {
+    background: #4b79a1;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #283e51;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4b79a1;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #4b79a1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #283e51;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
